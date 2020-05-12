@@ -1,0 +1,105 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  padding-top: 10px;
+  width: 100%;
+  height: 85px;
+  z-index: 999;
+  border-bottom: 2px solid #333;
+}
+
+.content {
+  height: 64px;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content nav { 
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 90px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.content aside {
+  display: flex;
+  align-items: center;
+}
+
+.portal {
+  display: flex;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.profile {
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid #eee;
+}
+
+.profile .nome {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.profile .nome strong {
+  display: block;
+  color: #333;
+}
+
+.profile .nome a {
+  display: block;
+  margin-top: 2px;
+  font-size: 12px;
+  color: #999;
+}
+
+ul {
+  display: grid; 
+  grid-template-columns: 1fr;
+  grid-gap: 14px; 
+  list-style: none; 
+  padding: 50px; 
+}
+
+li {
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.918);
+  padding: 10px;
+  border-radius: 10px;
+  position: relative; 
+  box-shadow: 5px 5px 5px 5px rgb(112, 112, 112);
+}
+
+.box {
+  font-weight: bold;
+  font-size: 30px;
+  border: 2px solid rgb(152, 185, 216);
+  background: #FFF;
+  padding: 10px;
+  padding-bottom: auto;
+  margin: 0 auto;
+  margin-top: 120px;
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

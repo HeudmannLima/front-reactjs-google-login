@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #999;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+ }
+
+.contents {
+  background: #FFF;
+  padding: 50px;
+  margin: 50px auto 0 ;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+h1 {
+  background: #FFF;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gbutton {
+  border: 0;
+  cursor: pointer;
+}
+
